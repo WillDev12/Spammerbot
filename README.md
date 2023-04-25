@@ -19,7 +19,7 @@
 <br>
 
 ## What it does
-Sends a desired amount of emails[^1] to another inbox in a quick manner resulting in an inbox flood.
+Rapidly sends emails to another inbox using the Gmail API.[^1]
 
 <br>
 
