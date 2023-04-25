@@ -1,3 +1,9 @@
+<br>
+
+<h3 align="center">⚠️ WARNING: PLEASE SEE <a href="https://github.com/WillDev12/Spammerbot/blob/main/TERMSOFUSE">USAGE POLICIES</a> BEFORE USING THIS PROGRAM ⚠️</h3>
+
+<br><br>
+
 <p align="center"><img src="https://cdn-icons-png.flaticon.com/512/4403/4403384.png" width="250" height="250"></p>
 
 <h1 align="center">Spammerbot</h1>
@@ -9,7 +15,8 @@
 <img src="https://img.shields.io/github/watchers/WillDev12/Spammerbot?style=for-the-badge">
 </p>
 
-<br><br>
+<br>
+<br>
 
 ## What it does
 Sends a desired amount of emails[^1] to another inbox in a quick manner resulting in an inbox flood.
