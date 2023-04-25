@@ -1,4 +1,6 @@
 <!-- begin rushed readme file -->
+<div align="center"><sup>better repo coming soon</sup></div>
+
 # Spammerbot
 Annoy your friends with the new GS program **SPAMMERBOT!!11!**
 
