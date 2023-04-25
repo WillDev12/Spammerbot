@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <base target="_top">
+
+    <style>
+
+      @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+      @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+
+      body {
+	      font-family: "Montserrat", sans-serif;
+	      min-height: 100vh;
+	      display: flex;
+	      align-items: center;
+	      justify-content: center;
+	      flex-direction: column;
+        background-color: #f2f2f2;
+      }
+
+      * {
+	      font-family: "Montserrat", sans-serif !important;
+        user-select: none;
+      }
+
+      .inner-Box {
+
+        border-radius: 10px;
+        border: 1px solid #f1f1f1;
+        background-color: #fff;
+        box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+        width: 57%;
+        height: 440px;
+        padding: 5%;
+        padding-top: 50px;
+        transition: all 0.2s ease-out;
+        text-align: center;
+
+      }
+
+      .inner-Box:hover {
+
+        transform: scale(1.009);
+
+      }
+
+      .input {
+
+        height: 2.5rem;
+        width: 40rem;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding-left: 1rem;
+
+      }
+
+      .flex {
+
+        justify-content: space-between;
+
+      }
+
+      .button {
+
+        border: solid 2px black;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 10px;
+
+      }
+
+      .notification {
+
+        position: absolute;
+        top: 15;
+        right: 15;
+        width: 20%;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #23C552;
+
+      }
+
+    </style>
+
+    <script>
+
+      function sendSpam() {
+
+        var email = document.getElementById('emailValue').value;
+        var number = document.getElementById('number').value;
+        var message = document.getElementById('message').value;
+
+        google.script.run.sendSpam(email,number,message);
+
+      }
+
+    </script>
+
+  </head>
+
+  <body>
+    
+    <div class="inner-Box">
+
+      <h3 style="line-height: 0;">SpammerBot</h3>
+
+      <div style="display:flex;margin-top:50px;justify-content:center;" class="flex">
+
+        <input type="text" id="emailValue" placeholder="email@gmail.co.nz" style="" class="input">
+
+        <input type="text" id="number" placeholder="# of messages" style="margin-left: 20px;" class="input">
+
+      </div>
+
+      <textarea placeholder="Message" id="message" class="input" style="border-radius: 10px; resize: none; overflow: hidden; padding: 10px; height: 200px; width: 100%; margin-top: 20px; padding-left: 13px;"></textarea><br>
+
+      <button onclick="sendSpam()" class="button">Execute</button>
+
+    </div>
+
+  </body>
+
+</html>
