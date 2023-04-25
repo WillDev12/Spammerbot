@@ -1,3 +1,5 @@
+// 🄯 copyleft WillDev12 2023
+
 function doGet(e) {
   
   var service = HtmlService.createHtmlOutput(UrlFetchApp.fetch("https://raw.githubusercontent.com/WillDev12/Spammerbot/main/src/index.html")).setTitle("Spammerbot | The gmail spammer");
