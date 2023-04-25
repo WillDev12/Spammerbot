@@ -1,13 +1,18 @@
-<!-- begin rushed readme file -->
-<div align="center"><sup>better repo coming soon</sup></div>
+<p align="center"><img src="https://cdn-icons-png.flaticon.com/512/4403/4403384.png" width="250" height="250"></p>
 
-# Spammerbot
-Annoy your friends with the new GS program **SPAMMERBOT!!11!**
+<h1 align="center">Spammerbot</h1>
 
-<br>
+<p align="center">
+<img src="https://img.shields.io/github/followers/WillDev12?label=follow%20my%20github&logo=github&style=for-the-badge">
+<img src="https://img.shields.io/github/stars/WillDev12/Spammerbot?style=for-the-badge">
+<img src="https://img.shields.io/github/forks/WillDev12/Spammerbot?style=for-the-badge">
+<img src="https://img.shields.io/github/watchers/WillDev12/Spammerbot?style=for-the-badge">
+</p>
+
+<br><br>
 
 ## What it does
-Sends a whole lot of emails **AS YOU**<sup>sadly this isn't anonymous</sup> depending on some user input
+Sends a desired amount of emails[^1] to another inbox in a quick manner resulting in an inbox flood.
 
 <br>
 
@@ -28,3 +33,5 @@ Check out my [profile](https://github.com/WillDev12) or share it! (It means a lo
 ```
 https://github.com/WillDev12
 ```
+
+[^1]: Sadly due to the fact that logging into an external account cannot be performed in Google Apps Script, every email sent will be delivered from your own personal account.
